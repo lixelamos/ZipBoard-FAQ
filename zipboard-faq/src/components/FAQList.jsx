@@ -37,8 +37,9 @@ export default function FAQList() {
   return (
     <div className="max-w-3xl w-full mx-auto px-4">
       <h2 className="text-center text-2xl md:text-3xl font-bold mb-6 text-purple-700 dark:text-electricBlue">
-        Frequently asked questions
-      </h2>
+  Frequently asked questions
+</h2>
+
       {data.map((item) => (
         <FAQItem key={item.id} {...item} />
       ))}
