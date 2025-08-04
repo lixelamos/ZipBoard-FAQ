@@ -11,7 +11,7 @@ export default {
         electricBlue: '#30c1ff',
       },
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
+        body: ['Rothek', 'sans-serif'],
       },
       fontSize: {
         22: '22px',
